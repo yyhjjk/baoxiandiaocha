@@ -1,0 +1,44 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tabone/tabone",
+    "pages/tabtwo/tabtwo",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/search/search",
+    "pages/listxg/listxg",
+    "pages/detailxg/detailxg"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "市民保险需求调查表",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/12.png",
+        "selectedIconPath": "image/11.png"
+      },
+      {
+        "pagePath": "pages/tabone/tabone",
+        "text": "性格测试",
+        "iconPath": "image/22.png",
+        "selectedIconPath": "image/21.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "数据查询",
+        "iconPath": "image/42.png",
+        "selectedIconPath": "image/41.png"
+      }
+    ]
+  }
+}
