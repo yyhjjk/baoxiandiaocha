@@ -3,7 +3,7 @@ var app = getApp()
 Page({
   config: {
     telephone: '13177313298',
-    yzm: '998877'
+    yzm: 'xxxxxxxx'
   },
   onReady: function () {
     wx.setNavigationBarTitle({
