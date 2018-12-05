@@ -1,0 +1,32 @@
+
+
+ 
+ 
+<view class='infoMsg'>
+  <view>
+    <label>姓名</label>
+    <label>手机</label>
+    <label>性格</label>
+    <label>操作</label>
+  </view>
+  <view wx:for="{{list}}" wx:key="{{item._id}}">
+    <label>{{item.username}}</label>
+    <label>{{item.userphone}}</label>
+    <label class='date'>{{item.xingge}}</label>
+    <label>
+      <text data-id='{{item._id}}' bindtap="delUserMsg">删除</text>
+      <text data-id='{{item._id}}' bindtap='detailMsg'>查看</text>
+    </label>
+  </view>
+  <view class='list-msg2' bindtap='bindShowMsg'>
+        <text>第{{pageindex}}页    共{{totalcount.pages}}页 </text>
+     
+    </view>
+
+<view class="select_box" wx:if="{{select}}">
+        <view wx:for="{{pagetotal}}" class="select_one" bindtap="mySelect" data-name="{{item}}" wx:key="{{item}}">第{{item}}页</view>
+      
+    </view>
+
+ 
+</view>

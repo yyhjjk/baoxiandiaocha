@@ -1,0 +1,214 @@
+<!--index.wxml-->
+  <view class="title" >
+
+   <text> 市民保险需求调查表</text>
+        
+        </view>
+
+<form bindsubmit='res'>
+
+<label class="lab">
+    1.请问您之前买过保险没有？
+        </label>
+
+<radio-group class="radio-group" name="one" >
+   <label class="radio" name="one">
+      <radio value="1"/>买过 
+        </label>
+
+         <label class="radio">
+     <radio value="0"/>没买过 
+        </label>
+      </radio-group>
+
+
+ <label class="lab">
+   2.在此之前您未投保的原因是什么？
+        </label>
+
+<radio-group class="radio-group"  name="two">
+   <label class="radio">
+      <radio value="1"/>不了解  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>不相信  
+        </label>
+
+
+         <label class="radio">
+     <radio value="3"/>经济原因  
+        </label>
+
+
+         <label class="radio">
+     <radio value="4"/>健康原因
+        </label>
+      </radio-group>
+
+
+ <label class="lab">
+   3.近阶段您有投保计划和打算吗？
+        </label>
+
+<radio-group class="radio-group"  name="three">
+   <label class="radio">
+      <radio value="1"/>有  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>没有  
+        </label>
+
+
+         <label class="radio">
+     <radio value="3"/>缓段时间  
+        </label>
+
+
+         <label class="radio">
+     <radio value="4"/>说不定
+        </label>
+      </radio-group>
+
+
+
+<label class="lab">
+   4.如果准备投保，您最想了解的是什么？
+        </label>
+
+<radio-group class="radio-group" name="four">
+   <label class="radio">
+      <radio value="1"/>保险的意义和作用  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>保险条款  
+        </label>
+
+
+         <label class="radio">
+     <radio value="3"/>保险公司 
+        </label>
+
+
+         <label class="radio">
+     <radio value="4"/>投保手续和程序
+        </label>
+      </radio-group>
+
+
+<label class="lab">
+   5.如果准备投保，您将首先为谁投保？
+        </label>
+
+<radio-group class="radio-group" name="five">
+   <label class="radio">
+      <radio value="1"/>自己 
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>配偶  
+        </label>
+
+
+         <label class="radio">
+     <radio value="3"/>子女 
+        </label>
+
+
+         <label class="radio">
+     <radio value="4"/>父母
+        </label>
+      </radio-group>
+
+<label class="lab">
+  6.如果准备投保，您认为最需要什么样的保险？
+        </label>
+
+<radio-group class="radio-group"  name="six">
+   <label class="radio">
+      <radio value="1"/>健康医疗保险  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>养老保险  
+        </label>
+
+
+         <label class="radio">
+     <radio value="3"/>教育保险
+        </label>
+
+
+         <label class="radio">
+     <radio value="4"/>投资理财保险
+        </label>
+      </radio-group>
+
+
+<label class="lab">
+ 7.您认为保险缴费期限哪种年限更适合您？
+        </label>
+
+<radio-group class="radio-group"  name="seven">
+   <label class="radio">
+      <radio value="1"/>10年  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>15年  
+        </label>
+
+
+         <label class="radio">
+     <radio value="3"/>20年 
+        </label>
+
+
+         <label class="radio">
+     <radio value="4"/>3或5年
+        </label>
+      </radio-group>
+
+
+<label class="lab">
+8.您对之前为您服务的代理人服务满意吗？
+        </label>
+
+<radio-group class="radio-group"  name="eight">
+   <label class="radio">
+      <radio value="1"/>非常满意  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>不满意 
+        </label>
+
+         <label class="radio">
+     <radio value="3"/>早没做了
+        </label>
+
+
+
+         
+      </radio-group>
+
+
+
+
+<label style="margin-top:10% ">您的姓名：</label>
+  <view class="inputView" >
+    <input style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 20rpx; border-radius: 10rpx" maxlength="8" name="username"  placeholder="请输入姓名" placeholder-style="color: red" bindinput='userNameInput'/>
+  </view>
+
+  <label style="margin-top:10% ">您的电话：</label>
+  <view class="inputView" >
+    <input style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 20rpx; border-radius: 10rpx" maxlength="11" name="userphone"  placeholder="请输入手机号码" placeholder-style="color: red" bindinput='userPhoneInput' />
+  </view>
+  <view>
+  
+  <button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 20rpx" type="primary" form-type='submit' > 提交 </button>
+  
+  </view>
+</form>

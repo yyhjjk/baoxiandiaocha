@@ -1,0 +1,826 @@
+ <view class="content">
+ 
+ <view class="title" >
+
+   <text> 性格色彩测试20题</text>
+        
+        </view>
+
+<form bindsubmit='res'>
+
+<label class="lab">
+   1.关于人生观，我的内心其实是：
+        </label>
+
+<radio-group class="radio-group" name="one">
+
+        
+<view>
+   <label class="radio" name="one">
+      <radio value="1"/>A，人生体验越多越好，所以想法极多。
+
+
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B，深度比宽度在人生中更重要，目标要谨慎，一旦确定就坚持到底。
+
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>
+C，无论做什么， 人生必须得有所成。 
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>
+D.有生就有死，不要太辛苦，活着就好。 
+        </label>
+
+        </view>
+
+      </radio-group>
+
+
+ <label class="lab">
+   2.如果爬山旅游，在下山回来的路线选择上，我更在乎：
+        </label>
+
+<radio-group class="radio-group"  name="two">
+
+        
+<view>
+   <label class="radio">
+      <radio value="1"/>A，要好玩有趣，不愿重复，所以宁愿走新路线。
+
+  
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.要安全稳妥，担心危险，所以宁愿走原路线。
+
+        </label>
+
+        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="3"/>C.要挑战自我，喜欢冒险，所以宁愿走新路线。
+  
+        </label>
+
+        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="4"/>D.要方便省心，害怕麻烦，所以宁愿走原路线。
+        </label> </view>
+      </radio-group>
+
+       
+
+
+
+ <label class="lab">
+  3.你对自己个性的描述
+        </label>
+
+<radio-group class="radio-group"  name="three">
+
+     
+<view>
+   <label class="radio">
+      <radio value="1"/>A.跳跃性：充满活力和生气勃勃
+
+ 
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.规范性：时时检视自己的举止，以合乎认同的道德规范
+  
+        </label>
+
+        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="3"/>C.无畏：大胆前进，不怕冒险
+ 
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.中庸：并没有非常明显的立场，走中间路线 
+        </label>
+
+        </view>
+
+      </radio-group>
+
+
+
+<label class="lab">
+   4.在生命多数时侯，我其实更加希望
+        </label>
+
+<radio-group class="radio-group" name="four">
+
+
+   
+   <label class="radio">
+      <radio value="1"/>A.刺激
+
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>B.安全
+
+  
+        </label>
+
+
+         <label class="radio">
+     <radio value="3"/>C.挑战
+
+        </label>
+
+
+         <label class="radio">
+     <radio value="4"/>D.安定。 
+        </label>
+      </radio-group>
+
+
+<label class="lab">
+  5.我认为自己在情感上的基本特点是：
+        </label>
+
+<radio-group class="radio-group" name="five">
+
+     
+<view>
+   <label class="radio">
+      <radio value="1"/>A.情绪多变，经常情绪波动
+
+ 
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.外表自我抑制强，但内心感情起伏大，一旦挫伤难以平复
+
+        </label>
+
+        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="3"/>C •感情不拖泥带水，较直接，一旦不稳定，容易发怒
+  
+        </label>
+
+        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="4"/>D.天性四平八稳 
+        </label>
+
+        </view>
+
+      </radio-group>
+
+<label class="lab">
+  6.我认为自己在整个人生中，除了工作以外，在控制欲上面，我：
+        </label>
+
+<radio-group class="radio-group"  name="six">
+
+     
+<view>
+   <label class="radio">
+      <radio value="1"/>A.没有控制欲，有感染带动他人的欲望，但自控能力不强
+
+ 
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.用规则来保持我对自己的控制和对他人的要求
+
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.内心有控制欲，希望别人服从我
+ 
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.不去管别人，也不愿意别人来管我
+        </label>
+
+        </view>
+
+      </radio-group>
+
+
+<label class="lab">
+ 7.当与情人交往时，我倾向于着重：
+        </label>
+
+<radio-group class="radio-group"  name="seven">
+
+      
+<view>
+   <label class="radio">
+      <radio value="1"/>A.一起做喜欢的事情，对他的爱意溢于言表。
+
+  
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.体贴入微，对他的需求极其敏感
+
+        </label>
+
+        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="3"/>C.沟通重要的想法，尽情地辩论事情
+   
+        </label>
+
+        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="4"/>D.包容别一半所有的不同观点
+        </label>
+
+        </view>
+
+      </radio-group>
+
+
+<label class="lab">
+8.在人际交往时，我：
+        </label>
+
+<radio-group class="radio-group"  name="eight">
+
+
+<view>
+   <label class="radio">
+      <radio value="1"/>A.心态开放，可快速建立起人际关系
+
+  
+        </label>        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="2"/>B.非常审慎地进入，一旦认为是朋友便会长久
+
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.希望在人际关系中占据主导地位
+
+        </label>        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="4"/>
+D.顺其自然，不温不火，相对被 动 
+        </label>        </view>
+
+
+
+
+
+         
+      </radio-group>
+
+
+<label class="lab">
+9.我认为自己为人更是：
+        </label>
+
+<radio-group class="radio-group"  name="nine">
+   <label class="radio">
+      <radio value="1"/>A.感情丰富
+
+  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>B.思路清晰
+
+        </label>
+
+         <label class="radio">
+     <radio value="3"/>C.做事直接
+
+        </label>
+
+         <label class="radio">
+     <radio value="4"/>D.为人温和
+        </label>
+
+
+
+
+         
+      </radio-group>
+
+
+<label class="lab">
+10.通常我完成任务的方式是：
+        </label>
+
+<radio-group class="radio-group"  name="ten">
+        
+<view>
+   <label class="radio">
+      <radio value="1"/>A.经常是赶在最后期限前一刻完成
+
+  
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.自己精确地做，不麻烦别人。
+
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.最快速做完，再找下一个任务
+        </label>
+
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>
+D.该怎么做就怎么做，需要时从他人处得到帮忙 
+        </label>
+        </view>
+
+
+
+         
+      </radio-group>
+
+
+
+<label class="lab">
+11.如果有人深深惹恼我时，我：
+        </label>
+
+<radio-group class="radio-group"  name="eleven">
+
+        
+<view>
+   <label class="radio">
+      <radio value="1"/>A.内心受伤，认为不可能原谅，但最终还是会原谅对方。
+
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.如此之深的愤怒不会忘记，同时未来完全避开那个家伙
+
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.火冒三丈，内心期望有机会狠 狠回应。
+
+   
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.避免摊牌，因为还不到那个地步
+        </label>
+        </view>
+
+
+
+
+         
+      </radio-group>
+
+
+<label class="lab">
+12.在人际关系中，我最在意的是：
+        </label>
+
+<radio-group class="radio-group"  name="twelve">
+   <label class="radio">
+      <radio value="1"/>A.欢迎
+
+  
+        </label>
+
+         <label class="radio">
+     <radio value="2"/>B.理解
+ 
+        </label>
+
+         <label class="radio">
+     <radio value="3"/>C.尊敬
+
+        </label>
+
+         <label class="radio">
+     <radio value="4"/>D.接纳
+        </label>
+
+
+
+         
+      </radio-group>
+
+
+
+<label class="lab">
+13.在工作上，我表现 出更多的是：
+        </label>
+
+<radio-group class="radio-group"  name="thirteen">
+
+      
+<view>
+   <label class="radio">
+      <radio value="1"/>A.热忱
+
+ 
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.完美精确且为人可靠
+
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.坚强而有推动力
+
+        </label>
+        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.有耐心且适应性强
+        </label>
+        </view>
+
+
+
+
+         
+      </radio-group>
+
+
+
+<label class="lab">
+14.我过往的老师最有可能对我的评价是：
+        </label>
+
+<radio-group class="radio-group"  name="fourteen">
+      
+<view>
+   <label class="radio">
+      <radio value="1"/>A.情绪起伏大，善于表达和抒发情感
+
+  
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.严格保护自己的私密，有时会显得孤独或是不合群
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.动作敏捷又独立，且喜欢自己做事情
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.看起来轻松，比较温和
+        </label>        </view>
+
+
+
+
+         
+      </radio-group>
+
+
+<label class="lab">
+15.朋友对我的评价最有可能是：
+        </label>
+
+<radio-group class="radio-group"  name="fifteen">
+        
+<view>
+   <label class="radio">
+      <radio value="1"/>A.喜欢对朋友倾诉事情，也有狂热感染别人。
+
+  
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.能够提出很多问题，而且需要许多精细的解说
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.直言表达想法，有时会直率地谈论不喜欢的人和事物
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.通常与他人一起时是多听少说 
+        </label>        </view>
+
+
+
+
+         
+      </radio-group>
+
+
+<label class="lab">
+16.在帮助他人的问题上，我倾向于：
+        </label>
+
+<radio-group class="radio-group"  name="sixtenn">
+
+        
+<view>
+   <label class="radio">
+      <radio value="1"/>A.我不主动，但若他来找我，那我定帮
+
+ 
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.值得帮助的人就帮
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.无关者何必帮，但我若承诺，必完成
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.虽无英雄打虎胆，常有自告奋勇心。
+        </label>        </view>
+
+
+
+
+         
+      </radio-group>
+
+
+
+<label class="lab">
+17.面对他人对自己的赞美，我的本能反应是：
+        </label>
+
+<radio-group class="radio-group"  name="seventeen">
+
+       
+<view>
+   <label class="radio">
+      <radio value="1"/>A.没有也无所谓，欣喜也不至于。
+
+  
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.我不需那些赞美，宁可他们欣赏我的能力
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.有点怀疑对方是否认真或立即回避众人的关注。
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>
+D.赞美是一件多么令人愉悦的事
+        </label>
+        </view>
+
+
+         
+      </radio-group>
+
+
+<label class="lab">
+18，面对生活的现状，我更倾向于：
+        </label>
+
+<radio-group class="radio-group"  name="eighteen">
+       
+<view>
+   <label class="radio">
+      <radio value="1"/>A.外面怎样与我无关，我觉得自己这样还行
+
+  
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.这个世界如果我不进步，别人就会进步，所以我需要不停前进
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.在所有的问题未发生前，就该尽量想好所有的可能性。
+ 
+        </label>        </view>
+<view>
+
+
+         <label class="radio">
+     <radio value="4"/>D.每天的生活，只有开心快乐最重要。
+        </label>        </view>
+
+
+
+         
+      </radio-group>
+
+
+
+<label class="lab">
+19，自我评价
+        </label>
+
+<radio-group class="radio-group"  name="ninteen">
+
+      
+<view>
+   <label class="radio">
+      <radio value="1"/>A.可爱：开心快乐，与他人相处，充满乐趣
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.注意细节，观察入微，做事情有条不紊
+
+   
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.勇敢：敢于冒险，无所畏惧
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.体贴：待人得体，有耐心
+        </label>        </view>
+
+
+
+         
+      </radio-group>
+
+
+<label class="lab">
+20，内心追求
+        </label>
+
+<radio-group class="radio-group"  name="twenty">
+
+        
+<view>
+   <label class="radio">
+      <radio value="1"/>A.惹人喜爱：是人们注意力的中心，让人喜欢
+
+ 
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="2"/>B.制图表者：用图表数字来组织生活，解决问题
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="3"/>C.首领：要求领导的地位及别人的跟随
+
+        </label>        </view>
+<view>
+
+         <label class="radio">
+     <radio value="4"/>D.知足：满足自己拥有的，很少羡慕别人
+        </label>        </view>
+
+
+
+
+         
+      </radio-group>
+
+
+
+
+
+
+<label style="margin-top:10% ">您的姓名：</label>
+  <view class="inputView" >
+    <input style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 20rpx; border-radius: 10rpx" maxlength="8" name="username"  placeholder="请输入姓名" placeholder-style="color: red" bindinput='userNameInput'/>
+  </view>
+
+  <label style="margin-top:10% ">您的电话：</label>
+  <view class="inputView" >
+    <input style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 20rpx; border-radius: 10rpx" maxlength="11" name="userphone"  placeholder="请输入手机号码" placeholder-style="color: red" bindinput='userPhoneInput' />
+  </view>
+
+<view class="testjg" wx:if="{{tijiao}}">
+<text>您选择了{{countA}}个A，选择了{{countB}}个B，选择了{{countC}}个C，选择了{{countD}}个D，您是{{xinggejg}}</text>
+</view>
+
+
+  <view>
+  <button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 20rpx" type="primary" form-type='submit'> 提交 </button>
+  
+  </view>
+</form>
+
+
+</view>

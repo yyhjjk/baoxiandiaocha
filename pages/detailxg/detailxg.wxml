@@ -1,0 +1,13 @@
+<!--pages/detailxg/detailxg.wxml-->
+<!--index.wxml-->
+  <view class="title" >
+
+   <text> {{username}}的性格色彩特征</text>
+        
+        </view>
+
+  <view class="title1" >
+{{username}}选择了{{countA}}个A，{{countB}}个B，{{countC}}个C，{{countD}}个D
+
+        
+</view>

@@ -1,0 +1,9 @@
+<!--pages/search/search.wxml-->
+
+<view>
+ <button style="margin-left: 120rpx; margin-right: 120rpx; margin-top: 50rpx;margin-bottom:15rpx; border-radius: 30rpx" type="primary" form-type='submit' bindtap='lookbx' > 查看保险需求表 </button>
+ 
+            <button style="margin-left: 120rpx; margin-right: 120rpx;margin-bottom:30; border-radius: 30rpx" type="primary" form-type='submit' bindtap='lookxg' > 查看性格测试 </button>
+
+ </view>
+          

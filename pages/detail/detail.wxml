@@ -1,0 +1,110 @@
+<!--index.wxml-->
+  <view class="title" >
+
+   <text> {{username}}的保险需求</text>
+        
+        </view>
+
+  <view class="title1" >
+<label class="lab">
+    1.请问您之前买过保险没有？
+        </label>
+
+
+   <label class="radio" name="one">
+        <radio checked="true"> {{one}}</radio>
+        </label>
+
+        </view>
+
+        
+ <view class="title1" >
+
+ <label class="lab">
+   2.在此之前您未投保的原因是什么？
+        </label>
+
+
+   <label class="radio">
+    <radio checked="true">   {{two}} </radio>
+        </label>
+
+       </view>
+
+
+ <view class="title1" >
+ <label class="lab">
+   3.近阶段您有投保计划和打算吗？
+        </label>
+
+
+   <label class="radio">
+      <radio checked="true"> {{three}} </radio>
+        </label>
+
+    </view>    
+
+
+ <view class="title1" >
+<label class="lab">
+   4.如果准备投保，您最想了解的是什么？\n    
+        </label>
+
+   <label class="radio">
+    <radio checked="true"> {{four}} </radio>
+        </label>
+
+  </view>     
+
+ <view class="title1" >
+<label class="lab">
+   5.如果准备投保，您将首先为谁投保？
+        </label>
+
+
+   <label class="radio">
+   <radio checked="true"> {{five}}</radio>
+        </label>
+
+     </view>   
+
+      <view class="title1" >
+
+<label class="lab">
+  6.如果准备投保，您认为最需要什么样的保险？
+        </label>
+
+
+   <label class="radio">
+     <radio checked="true"> {{six}}  </radio>
+        </label>
+
+   </view>      
+
+ <view class="title1" >
+<label class="lab">
+ 7.您认为保险缴费期限哪种年限更适合您？
+        </label>
+
+
+
+         <label class="radio">
+    <radio checked="true">  {{seven}} </radio>
+        </label>
+
+
+    </view>    
+
+     <view class="title1" >
+
+<label class="lab">
+8.您对之前为您服务的代理人服务满意吗？
+        </label>
+
+
+   <label class="radio">
+  <radio checked="true"> {{eight}} </radio>
+        </label>
+
+        
+</view>

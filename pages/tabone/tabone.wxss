@@ -1,0 +1,115 @@
+/* pages/tabone/tabone.wxss */
+
+
+
+.list-msg {
+    padding: 0 20rpx;
+    background-color: #fff;
+    position: relative;
+}
+ 
+.list-msg1 {
+    height: 60rpx;
+   
+    align-items: center;
+    justify-content: space-between;
+  
+}
+ 
+.list-msg .list-msg2 {
+    height: 60rpx;
+    
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 0 10rpx;
+}
+ 
+ .list-msg .list-msg3 {
+    height: 60rpx;
+  
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 0 10rpx;
+}
+.list-msg5{
+  margin-top: 10rpx;
+  margin-bottom:30rpx;
+}
+.select_box {
+    background-color: #eee;
+    padding: 0 10rpx;
+    width: 40%;
+    position: absolute;
+   
+    z-index: 1;
+    overflow: hidden;
+    animation: myfirst 0.5s;
+}
+
+.select_box1{
+    background-color: #eee;
+    padding: 0 10rpx;
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    animation: myfirst 0.5s;
+}
+ 
+@keyframes myfirst {
+    from {
+        height: 0rpx;
+    }
+ 
+    to {
+        height: 210rpx;
+    }
+}
+ 
+.select_one {
+    height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 1px solid #ccc;
+}
+
+.xingzuo {
+ position: absolute;
+ width:90%;
+
+ align-items: center;
+
+}
+
+
+.container{
+  display: flex;
+
+  background-color: #fff;  
+  color: #939393;  
+}
+ 
+
+ 
+.content{
+  display: flex;
+  flex-wrap:wrap;
+  background-color: #dedede;
+  width:50%;
+  
+  border: 1px red solid;
+  justify-content:flex-start;
+  align-content: flex-start;
+
+}
+ 
+.content .item{
+  box-sizing:border-box;
+  width: 50%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border: 1px #ccc solid;
+  
+}

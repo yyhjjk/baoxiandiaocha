@@ -1,0 +1,112 @@
+<!--pages/tabone/tabone.wxml-->
+<view class='list-msg'>
+   
+
+<!--下拉框  -->
+<view class="container">
+
+ <view class='list-msg1'>
+        <text>请输入您的阳历出生日期:</text>
+        
+    </view>
+
+  <view class="content">
+
+    <view class='item' bindtap='bindShowMsg'>
+        <text>{{tihuoWay}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/image/xiala.jpg'></image>
+    </view>
+        <view class='item' bindtap='bindShowMsg1'>
+        <text>{{tihuoday}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/image/xiala.jpg'></image>
+    </view> </view>
+
+    
+
+
+
+       <view class='list-msg1'>
+        <text>您的生日是:{{tihuoWay}}  {{tihuoday}}</text>
+        <text></text>
+    </view>
+
+          <view class='list-msg5'>
+          <button style="margin-left: 120rpx; margin-right: 120rpx; margin-top: 50rpx;margin-bottom:15rpx; border-radius: 30rpx" type="primary" form-type='submit' bindtap='look' > 查看您的性格特征 </button>
+ 
+            <button style="margin-left: 120rpx; margin-right: 120rpx;margin-bottom:30; border-radius: 30rpx" type="primary" form-type='submit' bindtap='lookxingge' > 性格色彩测试 </button>
+          
+    </view>
+
+
+   
+   
+<!-- 下拉需要显示的列表 -->
+ <view class="select_box" wx:if="{{select}}">
+        <view class="select_one" bindtap="mySelect" data-name="1月" data-text="1月">1月</view>
+        <view class="select_one" bindtap="mySelect" data-name="2月"  data-text="2月">2月</view>
+        <view class="select_one" bindtap="mySelect" data-name="3月"  data-text="3月">3月</view>
+        <view class="select_one" bindtap="mySelect" data-name="4月"  data-text="4月">4月</view>
+        <view class="select_one" bindtap="mySelect" data-name="5月"  data-text="5月">5月</view>
+        <view class="select_one" bindtap="mySelect" data-name="6月"  data-text="6月">6月</view>
+        <view class="select_one" bindtap="mySelect" data-name="7月"  data-text="7月">7月</view>
+        <view class="select_one" bindtap="mySelect" data-name="8月"  data-text="8月">8月</view>
+        <view class="select_one" bindtap="mySelect" data-name="9月"  data-text="9月">9月</view>
+        <view class="select_one" bindtap="mySelect" data-name="10月"  data-text="10月">10月</view>
+        <view class="select_one" bindtap="mySelect" data-name="11月"  data-text="11月">11月</view>
+        <view class="select_one" bindtap="mySelect" data-name="12月"  data-text="12月">12月</view>
+    </view>
+
+    <view class="select_box1" wx:if="{{select2}}">
+        <view class="select_two" bindtap="mySelect2" data-name="1日" data-text="1">1日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="2日" data-text="2">2日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="3日" data-text="3">3日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="4日" data-text="4">4日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="5日" data-text="5">5日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="6日" data-text="6">6日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="7日" data-text="7">7日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="8日" data-text="8">8日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="9日" data-text="9">9日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="10日" data-text="10">10日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="11日" data-text="11">11日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="12日" data-text="12">12日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="13日" data-text="13">13日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="14日" data-text="14">14日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="15日" data-text="15">15日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="16日" data-text="16">16日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="17日" data-text="17">17日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="18日" data-text="18">18日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="19日" data-text="19">19日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="20" data-text="20">20日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="21日" data-text="21">21日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="22日" data-text="22">22日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="23日" data-text="23">23日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="24日" data-text="24">24日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="25日" data-text="25">25日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="26日" data-text="1">26日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="27日" data-text="27">27日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="28日" data-text="28">28日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="29日" data-text="29">29日</view>
+
+        <view class="select_two" bindtap="mySelect2" data-name="30日" data-text="30">30日</view>
+        <view class="select_two" bindtap="mySelect2" data-name="31日" data-text="31">31日</view>
+
+    </view>
+
+    </view>
+
+       <view class='xingzuo' wx:if="{{show}}">
+        <text>您的星座是{{xingzuotext}},</text>
+        <text></text>
+    </view>
+
+    
+
+ 
+</view>
+
+
+
+
+
+
+    

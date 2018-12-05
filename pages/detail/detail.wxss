@@ -1,0 +1,32 @@
+/**index.wxss**/
+
+.title {
+  font-size:20px;
+  
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+.title1 {
+  
+  margin-bottom: 15px;
+
+}
+
+.lab {
+  font-weight: bold;
+  width:100%;
+
+}
+
+.radio {
+
+ 
+
+
+  width:100%;
+
+}
+
+
